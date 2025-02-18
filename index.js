@@ -19,7 +19,7 @@ const app = express()
 app.use(cookieParser())
 app.use(express.json())
 app.use(cors({
-    origin:'https://tokyo-create-blog.netlify.app/',
+    origin:'*',
     credentials: true
 }))
 
